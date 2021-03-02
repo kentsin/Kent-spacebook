@@ -1,7 +1,6 @@
 ---
 title: New Page.
 date: Last Modified 
-permalink: /
 eleventyNavigation:
   key: NewPage 
   order: 0
