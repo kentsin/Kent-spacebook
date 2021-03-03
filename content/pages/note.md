@@ -7,7 +7,7 @@ eleventyNavigation:
   title: Notes.
 ---
 You have successfully launched your spacebook. If you are new here, you may want to [read the docs](https://spacebook.app/) for tips and tricks on setting up your project.
-You have successfully launched your spacebook. If you are new here, you may want to [read the docs](https://spacebook.app/) for tips and tricks on setting up your project.{.c-article-section__disclaimer #articleId attr=value attr2="spaced value"}
+You have successfully launched your spacebook. If you are new here, you may want to [read the docs](https://spacebook.app/) for tips and tricks on setting up your project.{text-green-900}
 
 Adding new page with [new page](newPage)
 
