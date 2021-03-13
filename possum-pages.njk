@@ -1,9 +1,12 @@
 ---
 pagination:
     data: possums
-    size: 1
+    size: 2
     alias: possum
-permalink: "possums/{{ possum.name | slug }}/"
+# permalink: "possums/{{ possum.name | slug }}/"
 ---
-
-{{ possum.name }} is {{ possum.age }} years old
+<ol>
+{%- for p in pagination.possums %}
+  <li>{{ p.name }} is {{ p.age }} years old</li>
+{% endfor -%}
+</ol>
