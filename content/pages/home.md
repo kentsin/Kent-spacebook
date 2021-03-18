@@ -11,6 +11,8 @@ You have successfully launched your spacebook. If you are new here, you may want
 
 Adding new page with [new page](content/pages/newPage)
 
+[test])(content/pages/test)
+
 ![Hello, world](/content/images/hello.jpg)
 
 ->*Onward...*<-
