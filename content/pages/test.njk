@@ -18,6 +18,13 @@ array:
     {% set greeting = 'hello' %}
     
     Yay, {{ greeting | upper }} world!
+    <h2> Array </h2>
+    <table>
+    {% for rows in array %}
+    <tr>
+      <td>1</td><td>2</td><td>3</td>
+    </tr>
+    {% endfor %}
     
   </body>
 </html>
