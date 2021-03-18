@@ -1,2 +1,15 @@
-It does work
-
+<!-- test.njk -->
+---
+title: 我的網頁  
+date: 2021-03-10
+---
+<html lang="zh-TW">
+  <head>
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    {% set greeting = 'hello' %}
+    
+    Yay, {{ greeting | upper }} world!
+  </body>
+</html>
