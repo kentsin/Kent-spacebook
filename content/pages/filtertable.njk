@@ -18,23 +18,14 @@ data:
     <th style="width:60%;">Name</th>
     <th style="width:40%;">Country</th>
   </tr>
+  {% for rec in data %}
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Germany</td>
+    {% for i in rec %}
+       <td>{{ i }}</td>
+    {% endfor %}
   </tr>
-  <tr>
-    <td>Berglunds snabbkop</td>
-    <td>Sweden</td>
-  </tr>
-  <tr>
-    <td>Island Trading</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Koniglich Essen</td>
-    <td>Germany</td>
-  </tr>
-</table> 
+  {% endfor %}
+  </table> 
 
 <script>
 function myFunction() {
