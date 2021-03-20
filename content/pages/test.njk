@@ -101,8 +101,11 @@ myStock:
     
     <h2>Table of records</h2>
     
-    </table><tr>{% for name, item in myStock[0] %}<th>{{name}}</th>{% endfor %}
-    {% for r in myStock &}
+    </table>
+    <tr>
+    {% for name, item in myStock[0] %}<th>{{name}}</th>{% endfor %}
+    </tr>
+    {% for r in myStock %}
     <tr>
         {% for name, item in r %}
         <td>{{item}}</td>
