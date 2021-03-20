@@ -113,5 +113,16 @@ myStock:
     </tr>
     {% endfor %}
     </table>
+<br>    
+ <h2>record</h2>
+
+<table>
+{% for r in myStock %}
+{% for n, v in r %}
+<tr><td>{{n}} : </td><td>{{v}}</td></tr>
+{% endfor %}
+<tr><td colspan="2"><br><hr><br></td></tr>
+{% endfor %}
+</table>
   </body>
 </html>
