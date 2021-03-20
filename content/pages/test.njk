@@ -14,6 +14,68 @@ array:
     - 7
     - 8
     - 0 
+myStock:
+-
+   symbol: 01093
+   Name: 石藥集團
+   unit: 2,000
+   stocks: 10,000.00
+   cost: 9.0000
+   price: 9.6500
+   total cost: 90,000.00
+   total value: 96,500.00
+   profit: $6,500.00
+-
+   symbol: 01810
+   Name: 小米集團－Ｗ
+   unit: 200
+   stocks: 3600
+   cost: 32.2500
+   price: 26.2500
+   total cost: 116,100.00
+   total value: 94,500.00
+   profit: -$21,600.00
+-
+   symbol: 09999
+   Name: 網易－Ｓ
+   unit: 100
+   stocks: 600
+   cost: 174
+   price: 163.4000
+   total cost: 104,400.00
+   total value: 98,040.00
+   profit: -$6,360.00
+-
+   symbol: 00358
+   Name: 江西銅業股份
+   unit: 1,000
+   stocks: 3000
+   cost: 15.4
+   price: 16.2800
+   total cost: 46,200.00
+   total value: 48,840.00
+   profit: $2,640.00
+-
+   symbol: 09988
+   Name: 阿里巴巴－ＳＷ
+   unit: 100
+   stocks: 500
+   cost: 264
+   price: 234.6000
+   total cost: 132,000.00
+   total value: 117,300.00
+   profit: -$14,700.00
+-
+   symbol: 01727
+   Name: 河北建設
+   unit: 500
+   stocks: 
+   cost: 259.2
+   price: 2.7200
+   total cost: 0.00
+   total value: 0.00
+   profit: $0.00
+
 ---
 {# this is comment #}
 <html lang="zh-TW">
@@ -33,6 +95,18 @@ array:
       {% for cell in rows %}
          <td> {{ cell }} </td>
       {% endfor %}
+    </tr>
+    {% endfor %}
+    <table>
+    
+    <h2>Table of records</h2>
+    
+    </table><tr>{% for name, item in myStock[0] %}<th>{{name}}</th>{% endfor %}
+    {% for r in myStock &}
+    <tr>
+        {% for name, item in r %}
+        <td>{{item}}</td>
+        {% endfor %}
     </tr>
     {% endfor %}
     </table>
