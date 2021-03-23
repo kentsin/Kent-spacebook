@@ -1,7 +1,6 @@
 ---
 title: New Page.
 date: Last Modified 
-layout: markdown.njk
 eleventyNavigation:
   key: NewPage 
   order: 0
