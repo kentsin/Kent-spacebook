@@ -8,13 +8,11 @@ const embedEverything = require("eleventy-plugin-embed-everything");
 const pluginTOC = require('eleventy-plugin-nesting-toc');
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const Image = require("@11ty/eleventy-img");
-const yaml = require("js-yaml");
 
 module.exports = function(eleventyConfig) {
   // eleventyConfig.addPlugin(pluginTOC);
   eleventyConfig.addPlugin(svgContents); 
   eleventyConfig.addPlugin(embedEverything);
-  eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
   eleventyConfig.addShortcode("version", function () {
     return String(Date.now());
   });
@@ -254,5 +252,5 @@ module.exports = function(eleventyConfig) {
       data: "_data",
       output: "_site"
     }
-  };
+  })
 };
