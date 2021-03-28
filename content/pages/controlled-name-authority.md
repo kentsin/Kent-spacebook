@@ -10,7 +10,7 @@ There are still more things
 
 1. make font files work
 2. make card look good
-3. make cards same height
+3. filtertext to upper and filter out accents
 4. try loading more data
 5. work on maintain manual
 6. deploy
