@@ -16,6 +16,7 @@ use vscode :
    search for << >> and replace with 《》 
    remove tailing . by replace ." with "
    
+   
 Convert    
    Use https://tableconvert.com/?output=excel import data by copy all text from vscode then paste (choose import data from site) then select import data
    choose from the bottom of page excel then copy
@@ -31,4 +32,5 @@ edit
 Convert 
    Use https://tableconvert.com/?output=excel import data by copy all text from vscode then paste (choose import data from site) then select import data
    choose from the bottom of page YAML then copy
+   In vscode check : ' " if they break YAML  quote data if needed
    
