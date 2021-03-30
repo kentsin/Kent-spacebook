@@ -12,6 +12,7 @@ use vscode :
 
    convert encoding to utf-8
    find html entities search &# use the encode decode extension. select the entity &#xXXXX; then ctrl-shift-P select from html entities to string
+   find all 
    each line may have multiple authors separated by ;; find ;; and replace "\n" (need to check use regular expression)
    search for << >> and replace with 《》 
    remove tailing . by replace ." with "
