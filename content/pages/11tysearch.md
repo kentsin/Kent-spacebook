@@ -1,5 +1,9 @@
 ---
 title: learn search for 11ty
+eleventyNavigation:
+  key: ls11ty 
+  order: 2
+  title: search.
 ---
 
 # ElasticLunr
@@ -15,3 +19,7 @@ Multi-lang is available through lunr-languages. Lunr-pt does not remove diacriti
 # Txi
 
 # Bloomfilter
+
+# Fuzzysort
+
+  [Fuzzysort](https://github.com/farzher/fuzzysort)
