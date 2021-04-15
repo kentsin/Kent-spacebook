@@ -1,9 +1,12 @@
 const elasticlunr = require("elasticlunr");
+require('./lunr.stemmer.support.js')(elasticlunr);
+require('./lunr.jp.js')(elasticlunr);
 const emojiRegex = require('emoji-regex/RGI_Emoji.js')
 
 module.exports = function (collection) {
   // what fields we'd like our index to consist of
   var index = elasticlunr(function () {
+    this.use(elasticlunr.jp);
     this.addField("title");
     this.addField("content");
     this.setRef("id");
