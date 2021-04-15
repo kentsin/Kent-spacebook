@@ -20,6 +20,8 @@ Multi-lang is available through lunr-languages. Lunr-pt does not remove diacriti
 
 # Bloomfilter
 
+  [TinySearch](https://github.com/tinysearch/tinysearch)
+
 # Fuzzysort
 
   [Fuzzysort](https://github.com/farzher/fuzzysort)
