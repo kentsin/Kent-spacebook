@@ -30,3 +30,7 @@ Try lang-jp : WeixSong 的 lunr-language Jp 好似用不了, 改了用 [t-kuni �
 # Fuzzysort
 
   [Fuzzysort](https://github.com/farzher/fuzzysort)
+  
+# FlexSearch
+
+  [flexsearch](https://github.com/nextapps-de/flexsearch)
