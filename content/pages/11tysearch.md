@@ -12,6 +12,8 @@ Chinese does not work. The npm lunr-languages does not work. use the one from ht
 
 Multi-lang is available through lunr-languages. Lunr-pt does not remove diacritics, find from stackoverflow a js function to do that. 
 
+Try lang-jp 
+
 # Lunr
 
 # Fuse
